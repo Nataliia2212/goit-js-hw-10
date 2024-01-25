@@ -72,9 +72,9 @@ const options = {
       if (selectedDates[0].getTime() < currentDate.getTime()) {
         // window.alert("Please choose a date in the future")
         iziToast.error({
-         position: 'topRight',
-    title: 'Error',
-    message: 'Please choose a date in the future',
+          position: 'topRight',
+          title: 'Error',
+          message: 'Please choose a date in the future',
 });
           refs.btnStart.setAttribute('disabled', '');
        } else {
